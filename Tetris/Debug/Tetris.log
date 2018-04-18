@@ -1,0 +1,21 @@
+﻿Построение начато 17.04.2018 23:42:30.
+     1>Проект "C:\Users\Артем\Documents\Visual Studio 2012\Projects\Tetris\Tetris\Tetris.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib shape.cpp
+         shape.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Артем\Documents\Visual Studio 2012\Projects\Tetris\Debug\Tetris.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Tetris.MainForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Артем\Documents\Visual Studio 2012\Projects\Tetris\Debug\Tetris.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\board.obj
+         Debug\game.obj
+         Debug\idShape.obj
+         Debug\main.obj
+         Debug\MainForm.obj
+         Debug\shape.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+     1>game.obj : error LNK2028: ёё√ыър эр эхЁрчЁх°хээє■ ыхъёхьє (0A000017) "public: void __thiscall shapeCl::changeShape(void)" (?changeShape@shapeCl@@$$FQAEXXZ) т ЇєэъЎшш "public: enum processGame __thiscall gameCl::gaming(class boardCl *,class shapeCl *)" (?gaming@gameCl@@$$FQAE?AW4processGame@@PAVboardCl@@PAVshapeCl@@@Z)
+     1>game.obj : error LNK2019: ёё√ыър эр эхЁрчЁх°хээ√щ тэх°эшщ ёшьтюы "public: void __thiscall shapeCl::changeShape(void)" (?changeShape@shapeCl@@$$FQAEXXZ) т ЇєэъЎшш "public: enum processGame __thiscall gameCl::gaming(class boardCl *,class shapeCl *)" (?gaming@gameCl@@$$FQAE?AW4processGame@@PAVboardCl@@PAVshapeCl@@@Z)
+     1>C:\Users\└ЁЄхь\Documents\Visual Studio 2012\Projects\Tetris\Debug\Tetris.exe : fatal error LNK1120: эхЁрчЁх°хээ√ї тэх°эшї ¤ыхьхэЄют: 2
+     1>Построение проекта "C:\Users\Артем\Documents\Visual Studio 2012\Projects\Tetris\Tetris\Tetris.vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:00.57
